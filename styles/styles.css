@@ -79,7 +79,7 @@ body {
   font-size: var(--body-font-size-m);
   line-height: 1.6;
 }
-
+.banner-container{ background-color: #1d3ecf;}
 body.appear {
   display: block;
   background: cyan;
