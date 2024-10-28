@@ -82,6 +82,7 @@ body {
 
 body.appear {
   display: block;
+  background: #ccc;
 }
 
 header {
