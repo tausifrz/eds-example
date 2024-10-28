@@ -82,7 +82,8 @@ body {
 
 body.appear {
   display: block;
-  background: #ccc;
+  background: cyan;
+  color: magenta;
 }
 
 header {
