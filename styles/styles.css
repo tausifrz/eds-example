@@ -340,6 +340,16 @@ header .nav-wrapper{
   position: absolute;
   transform: rotate(80deg);
 }
+.header-wrapper .section.form-container p{
+  position: relative;
+}
+.header-wrapper .section.form-container .button{ 
+  background: transparent;
+    position: absolute;
+    transform: rotate(80deg);
+    left: -22px;
+    top: -14px;
+}
 #recent-articles{
   margin-bottom: 36px;
   position: relative;
