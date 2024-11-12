@@ -570,17 +570,17 @@ display: inline-block;
   border-radius: 0;
     background: #333;
 }
-.section.about-us-sec.columns-container .columns.block > div > div > p:nth-child(6){
+.section.about-us-sec.columns-container .columns.block > div > div > p:nth-child(5){
   display: inline-block;
   }
-  .section.about-us-sec.columns-container .columns.block > div > div > p:nth-child(6) > a{
+  .section.about-us-sec.columns-container .columns.block > div > div > p:nth-child(5) > a{
     border-radius: 0;
       background: #333;
   }
-  .section.about-us-sec.columns-container .columns.block > div > div > p:nth-child(7){
+  .section.about-us-sec.columns-container .columns.block > div > div > p:nth-child(6){
     display: inline-block;
     }
-  .section.about-us-sec.columns-container .columns.block > div > div > p:nth-child(7) > a{
+  .section.about-us-sec.columns-container .columns.block > div > div > p:nth-child(6) > a{
       border-radius: 0;
         background: #333;
     }
