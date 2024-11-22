@@ -292,6 +292,16 @@ header nav .nav-tools {
   grid-area: tools;
 }
 
+
+@media only screen and (min-width:1100px) {
+  header nav[aria-expanded='true'] .section.nav-tools{
+    margin-top: 0px;
+  }
+
+}
+
+
+
 @media only screen and (max-width:1100px) {
   .section.nav-sections .default-content-wrapper img{
     width: 5rem;
@@ -324,9 +334,9 @@ header nav .nav-tools {
     display: block;
     padding: 0;
   }
-  header nav[aria-expanded='true'] .section.nav-tools{
+  /* header nav[aria-expanded='true'] .section.nav-tools{
     margin-top: 0 !important;
-  }
+  } */
 }
 
 @media only screen and (max-width:660px) {
@@ -383,5 +393,15 @@ header nav .nav-tools {
   .section.form-container input{
     font-size: 13px;
   }
+}
+
+
+@media only screen and (max-width:320px) {
+.section.nav-sections .default-content-wrapper img {
+  width: 3rem;
+}
+header nav[aria-expanded='true'] .section.nav-tools{
+  margin-top: 100px !important;
+}
 }
 
