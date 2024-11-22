@@ -584,6 +584,12 @@ display: inline-block;
       border-radius: 0;
         background: #333;
     }
+  
+  .section.carousel-custom .carousel-navigation-buttons{
+    width: 100px;
+    top: 106% !important;
+    left: 90% !important;
+  }
 
 @media only screen and (max-width:660px) {
   .section.nav-tools .default-content-wrapper > ul{
@@ -593,5 +599,40 @@ display: inline-block;
     justify-content: end;
     background: #333;
     color: #fff;
+    height: 100vh;
+    padding: 0;
   }
+  .section.nav-tools .default-content-wrapper > ul > li {
+    margin-right: 0;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #535353;
+  }
+  header .nav-wrapper{
+    width: 100%;
+    position: relative !important;
+  }
+  .section.nav-tools{
+    position: absolute !important;
+        top: -49px;
+        left: 0;
+        font-size: 14px;
+  }
+  .with-64{width: 64% !important;}
+  .section.form-container{
+    width: 150px;
+    right: 16px;
+    position: absolute;
+  }
+  .section.form-container input{
+    width: 100%;
+    padding: 10px 36px;
+  }
+  .section.nav-sections .default-content-wrapper img{
+    width: 5rem;
+  }
+}
+
+.section.custom-form{
+  margin: 100px 0px !important;
 }

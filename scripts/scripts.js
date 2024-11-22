@@ -30,6 +30,7 @@ function buildHeroBlock(main) {
   }
 }
 
+
 /**
  * load fonts.css and set a session storage flag
  */
