@@ -592,6 +592,10 @@ display: inline-block;
   }
 
 @media only screen and (max-width:768px) {
+  h1{
+    font-size: 30px;
+    font-family: math;
+  }
   .section.nav-tools .default-content-wrapper > ul{
     display: block;
     list-style: none;
@@ -602,6 +606,14 @@ display: inline-block;
     height: 100vh;
     padding: 0;
   }
+  .magazinebanner .columns > div > .columns-img-col {
+    order: 2 !important;
+}
+.magazinebanner .columns > div > div {
+  order: 1;
+  font-size: 14px;
+  padding: 0px 10px;
+}
   header nav[aria-expanded='true'] .section.nav-tools{
     margin-top: 140px !important;
   }
@@ -625,7 +637,7 @@ display: inline-block;
   }
   header .nav-wrapper{
     width: 100%;
-    position: relative !important;
+    position: relative;
   }
   .section.nav-tools{
     position: absolute !important;
@@ -651,3 +663,20 @@ display: inline-block;
 .section.custom-form{
   margin: 100px 0px !important;
 }
+.custom-form form input{
+  background-color: #fff !important;
+}
+
+.custom-form input[type="submit"] {
+  background: #ffea00 !important;
+  width: 200px;
+    margin: auto;
+}
+.custom-form form{
+  width: 60%;
+    margin: auto;
+    background: #929292;
+    padding: 20px;
+}
+.custom-form form input{ width: 100%;  max-width: 100%;}
+.custom-form form select{ width: 100%;  max-width: 100%;}
