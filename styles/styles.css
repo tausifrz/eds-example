@@ -605,6 +605,9 @@ display: inline-block;
   header nav[aria-expanded='true'] .section.nav-tools{
     margin-top: 140px !important;
   }
+  .section.climbing.hero-container{
+    font-size: 14px;
+  }
   header nav[aria-expanded='true'] .nav-sections {
     top:40px;
     position: absolute;
